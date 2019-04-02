@@ -1,14 +1,43 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,img {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+	font-family: 'Abril Fatface', cursive;
 }
 
 body {
-		-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 600%;
+
+    color: white;
+
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, 80%);
 }
 
 .landing-page {
@@ -21,20 +50,41 @@ body {
 
     opacity: 0.8;
 
-      min-height: 100%;
-      min-width: 1024px;
+    min-height: 100%;
+    min-width: 1024px;
 
-      width: 100%;
-      height: auto;
+    width: 100%;
+    height: auto;
 
-      position: fixed;
-      top: 0;
-      left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
-      @media screen and (max-width: 1024px) {
-        img.bg {
-          left: 50%;
-          margin-left: -512px;   /* 50% */
-        }
-      }
+@media screen and (max-width: 1024px) {
+    h1 {
+        text-align: center;
+        font-size: 200%;
+        color: white;
+
+        position: fixed;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 100%;
+        color: white;
+
+        position: fixed;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, 80%);
+}
 }
