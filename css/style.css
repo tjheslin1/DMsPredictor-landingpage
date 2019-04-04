@@ -15,17 +15,14 @@ body {
 
 h1 {
     font-size: 7vw;
-    /*transform: translate(-50%, -50%);*/
 }
 
 h2 {
     font-size: 4vw;
-    /*transform: translate(-50%, 160%);*/
 }
 
 h3 {
     font-size: 1.5vw;
-    /*transform: translate(-50%, 180%);*/
 }
 
 #centre {
@@ -59,4 +56,18 @@ h3 {
     position: fixed;
     top: 0;
     left: 0;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 14vw;
+    }
+
+    h2 {
+        font-size: 8vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
 }
